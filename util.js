@@ -4,5 +4,8 @@ exports.default = {
   },
   test2: function () {
     console.log('test2')
+  },
+  test3: function () {
+  	console.log('test33')
   }
 }
