@@ -12,4 +12,5 @@
 11. 组员小智: git checkout dev
 12. 组员小智：git pull
 13. 组员小智： git merge xiaozhi
+14. 此时如果出现
 14. 组员小智： git push
