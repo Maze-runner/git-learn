@@ -33,13 +33,18 @@
 24. 组员小狒：git merge xiaofei
 
 ```
-// 此时如果出现冲突
+此时如果出现冲突
+>>>>>> HEAD
 // 从HEAD到下面的====之间的代码是你拉取的别的组员的代码
 function a () {
 	console.log('a')
 }
+======
 // 从======到下面的>>>>>之间的代码是小狒修改的代码
-
+function a () {
+  console.log('aa')
+}
+>>>>>> xiaofei
 // 需要小狒和小智商量，保留小智的还是保留小狒的，还是两个人的都要保留一部分。手动改好代码后，执行
 git add '冲突的文件名'
 git commit -m '解决冲突'
@@ -59,5 +64,16 @@ git commit -m '解决冲突'
 32. 组员小智：git merge xiaozhi
 33. 组员小智：git push
 34. 组员小智：git checkout xiaozhi
-35. 组员小智：git merge release
+35. 组员小智：git merge release 继续解决下一个bug
+
+
+36. 组员小狒：git checkout xiaofei
+37. 组员小狒：git merge release
+38. 组员小狒：git status, git add, git commit -m "修改bug0002"
+39. 组员小狒：git checkout release
+40. 组员小狒：git pull
+41. 组员小狒：git merge xiaofei
+42. 组员小狒：git push
+43. 组员小狒：git checkout xiaofei
+44. 组员小狒：git merge release 继续解决下一个bug
 
