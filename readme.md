@@ -35,3 +35,6 @@
 
 23. 组长：git checkout -b release dev
 24. 组长：git push -u origin release
+
+25. 组员小狒：git checkout xiaofei
+26. 组员小狒：git merge release
