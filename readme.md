@@ -19,6 +19,7 @@
 # lines starting with "#" will be ignored, and an empty message aborts the commit
 ```
 可以按 Esc 退出键，输入 :wq, 然后按下回车键即可
+
 14. 组员小智： git push
 15. 组员小智： git checkout xiaozhi
 16. 组员小智： git merge xiaozhi
