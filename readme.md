@@ -81,4 +81,4 @@ git commit -m '解决冲突'
 46. 组长：git checkout master
 47. 组长：git commit -a "完成v.0.0版本发版"
 48. 组长 git tag v1.0.0
-49. 组长 git push
+49. 组长 git push 
