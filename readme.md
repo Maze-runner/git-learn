@@ -77,3 +77,8 @@ git commit -m '解决冲突'
 43. 组员小狒：git checkout xiaofei
 44. 组员小狒：git merge release 继续解决下一个bug
 
+45. 完成测试，发布v1.0.0
+46. 组长：git checkout master
+47. 组长：git commit -a "完成v.0.0版本发版"
+48. 组长 git tag v1.0.0
+49. 组长 git push
