@@ -5,9 +5,11 @@
 5. 组长：git checkout -b dev
 6. 组长：git push -u origin dev
 
-7. 组员：git clone "复制的地址"
-8. 组员：git checkout -b dev origin/dev
-9. 组员：git checkout -b xiaozhi dev
-10. 组员：git status, git add, git commit
-11. 组员: git checkout dev
-12. 组员：git pull
+7. 组员小智：git clone "复制的地址"
+8. 组员小智：git checkout -b dev origin/dev
+9. 组员小智：git checkout -b xiaozhi dev
+10. 组员小智：git status, git add, git commit
+11. 组员小智: git checkout dev
+12. 组员小智：git pull
+13. 组员小智： git merge xiaozhi
+14. 组员小智： git push
