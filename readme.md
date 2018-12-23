@@ -14,3 +14,11 @@
 13. 组员小智： git merge xiaozhi
 14. 此时如果出现
 14. 组员小智： git push
+15. 组员小狒：git clone "复制的地址"
+16. 组员小狒：git checkout -b dev origin/dev
+17. 组员小狒：git checkout -b xiaofei dev
+18. 组员小狒：git status, git add, git commit
+19. 组员小狒：git checkout dev
+20. 组员小狒：git pull 
+21. 组员小狒：git merge xiaofei
+22. 组员小狒：git push
